@@ -3,7 +3,7 @@ section:first-of-type{
 }
 
 section:nth-of-type(2){
-    background: linear-gradient(rgb(22, 109, 22) 33%, rgb(153, 153, 24) 33%, rgb(173, 173, 24) 67%, blue 67%);
+    background: linear-gradient(rgb(19, 155, 19) 33%, rgb(196, 196, 18) 33%, rgb(196, 196, 18) 67%, blue 67%);
 }
 
 section:nth-of-type(3){
