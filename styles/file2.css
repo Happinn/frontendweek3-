@@ -1,0 +1,63 @@
+
+*{
+    border-right: 5px dashed greenyellow;
+    border-left: 5px dashed greenyellow
+}
+h1{
+    color: fuchsia;
+}
+
+
+h2 ~ P{
+    background-color: crimson;
+}
+
+h2 + p{
+    background-color: fuchsia;
+}
+
+p{
+        background-color: aqua;
+}
+
+/* pseudoclass selector */
+ul li{
+    margin-top: 30px;
+}
+
+ul :nth-child(even){
+    border: 10px dashed purple
+}
+
+ul :nth-child(odd){
+    border: 10px ridge red
+}
+
+
+ul>:first-child, ul>:last-child{
+    border: 10px double orange
+}
+
+ul :nth-child(3n+3){
+    border: 10px dotted black
+}
+ul li{
+    border: 10px double green
+}
+
+ul :nth-child(2n+2){
+    border: 10px dashed aqua
+}
+
+li:first-of-type{
+    background-color: blueviolet
+}
+
+li:last-of-type{
+    background-color: khaki
+}
+
+li:nth-of-type(2n+1 ){
+    background-color: aqua
+}
+}

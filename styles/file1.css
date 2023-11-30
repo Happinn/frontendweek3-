@@ -1,0 +1,25 @@
+/* cascading and specificity */
+main h1{
+    color: red;
+}
+
+body h1{
+    color: green;
+}
+
+/*class selector*/
+h2.one{
+    color: green;
+}
+.one{
+    font-size: 50px;
+    color: yellow;
+}
+
+section h2.one{
+    font-size: 50px;
+    color: yellow;
+}
+
+
+

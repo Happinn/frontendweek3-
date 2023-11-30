@@ -1,0 +1,22 @@
+section:first-of-type{
+    background: linear-gradient(red 35%, white 35%, white 40%,  blue 40%, blue 60%, white 65%, white 70%, green 60%);
+}
+
+section:nth-of-type(2){
+    background: linear-gradient(rgb(22, 109, 22) 33%, rgb(153, 153, 24) 33%, rgb(173, 173, 24) 67%, blue 67%);
+}
+
+section:nth-of-type(3){
+    background: linear-gradient(90deg, green 33%, white 33%, #fff 67%, green 67%);
+}
+ section:nth-of-type(4){
+    background: radial-gradient(circle, rgb(218, 18, 18) 25%, white 25% );
+ }
+
+ section:nth-of-type(5){
+    background: linear-gradient(90deg, black 33%, rgb(202, 202, 14) 33%, rgb(207, 207, 15) 67%, rgb(214, 15, 15) 67%);
+ }
+
+ section:nth-of-type(6){
+    background: linear-gradient(90deg, rgb(12, 12, 65) 33%, white 33%, white 67%, rgb(201, 17, 17) 67%);
+ }
